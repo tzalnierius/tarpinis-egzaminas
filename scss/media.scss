@@ -1,0 +1,86 @@
+@media (max-width: 600px) {
+    section {
+        width: 100% !important;
+        flex-direction: column !important;
+        height: 110vh;
+    }
+
+    section:nth-of-type(2) {
+        height: 150vh;
+    }
+
+    .feedback p {
+        margin-left: 35vh;
+    }
+
+    article {
+        width: 100% !important;
+    }
+
+    .feedback {
+        max-width: 600px;
+        height: 50px;
+        line-height: 20px;
+        padding-bottom: 50px;
+
+        .avatar-1 {
+            min-height: 100px;
+            width: 100px;
+            background: url($avatar-1);
+            border-radius: 50%;
+            background-size: cover;
+            background-position: 50% 30%;
+            box-shadow: 1px 2px 1px 1px $shadow-col;
+
+        }
+
+        .avatar-2 {
+            min-height: 100px;
+            width: 100px;
+            background: url($avatar-2);
+            border-radius: 50%;
+            background-size: cover;
+            background-position: 50% 30%;
+            margin: 20px;
+            box-shadow: 1px 2px 1px 1px $shadow-col;
+        }
+
+        .avatar-3 {
+            min-height: 100px;
+            width: 100px;
+            background: url($avatar-3);
+            border-radius: 50%;
+            background-size: cover;
+            background-position: 50% 30%;
+            box-shadow: 1px 2px 1px 1px $shadow-col;
+        }
+
+        h5 {
+            font-size: 1rem;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-left: 175px;
+            width: 230px;
+            font-weight: 100;
+            font-size: 0.9em;
+        }
+    }
+
+    .feedback:nth-of-type(3) {
+        padding: 80px;
+        margin: 100px;
+        margin-bottom: 100px;
+    }
+
+    .social-media {
+        padding-left: 185px;
+    }
+
+    foot {
+        height: 100px;
+        padding-bottom: 10px;
+    }
+}

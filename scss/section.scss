@@ -1,0 +1,29 @@
+section {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    background: $section-bg;
+    color: black;
+    text-align: center;
+
+    .container {
+        display: inline-block;
+        width: 800px;
+        height: 250px;
+        line-height: 20px;
+        margin-top: 120px;
+
+        h3 {
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-weight: 100;
+            font-size: 0.8em;
+        }
+    }
+}

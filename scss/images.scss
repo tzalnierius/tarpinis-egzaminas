@@ -1,0 +1,27 @@
+.img-1 {
+    min-height: 50px;
+    width: 50px;
+    background: url($section-icon-1);
+    background-size: cover;
+    background-position: 50% 30%;
+    display: inline-block;
+}
+
+.img-2 {
+    min-height: 50px;
+    width: 50px;
+    background: url($section-icon-2);
+    background-size: cover;
+    background-position: 50% 30%;
+    display: inline-block;
+}
+
+.img-3 {
+    min-height: 50px;
+    width: 50px;
+    background: url($section-icon-3);
+    background-size: cover;
+    background-position: 50% 30%;
+    display: inline-block;
+}
+

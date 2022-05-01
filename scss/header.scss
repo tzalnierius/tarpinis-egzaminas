@@ -1,0 +1,94 @@
+.head-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    width: 100%;
+    border-radius: 3px 3px 3px 3px;
+    background: white;
+    margin-right: 5px;
+    font-family: $font;
+
+    p {
+        margin-left: 90px;
+        color: black;
+    }
+
+    button {
+        width: 45px;
+        height: 25px;
+        background: $col-blue;
+        border-radius: 3px 3px 3px 3px;
+        border: none;
+        color: white;
+        font-family: $font;
+        font-weight: 300;
+        margin-right: 90px;
+
+
+    }
+}
+
+
+header {
+    display: flex;
+    position: relative;
+    height: 400px;
+    background: url($header-photo);
+    color: white;
+    background-size: cover;
+    background-position: 30% 80%;
+}
+.content {
+    padding-top: 120px;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+
+    h1 {
+
+        max-width: 600px;
+        text-align: center;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        font-size: 1.5em;
+    }
+
+    .content-bottom {
+        display: flex;
+    }
+
+    .header-bar {
+        display: flex;
+        position: relative;
+        align-items: center;
+        width: 300px;
+        border-radius: 3px 3px 3px 3px;
+        background: white;
+        margin-right: 5px;
+    }
+
+    p {
+        margin-left: 10px;
+        font-family: $font;
+        font-size: 0.7em;
+        color: gray;
+        z-index: 2;
+    }
+
+    button {
+        width: 100px;
+        height: 30px;
+        background: $col-blue;
+        border-radius: 3px 3px 3px 3px;
+        border: none;
+        color: white;
+        font-family: $font;
+        font-weight: 300;
+
+    }
+}
